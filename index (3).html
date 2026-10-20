@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-widht, initial-scale=1.0">
+<title>Ganaderos Emprendedores - productos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  	 <nav>
+  	 	<ul>
+  	 		<li><a href="Index.html">Inicio</a></li>
+  	 		<li><a href="productos.html">Productos</a></li>
+  	 		<li><a href="contacto.html">Contacto</a></li>
+  	 		<li><a href="#" id="carrito-link">Carrito (<span id="carrito-count">0</span>)</a></li>
+  	 		  </ul>
+  	 		</nav>
+  	 		<h1> Nuestro Producto </h1>
+  	 		</header>
+  	 		<main class="productos-grid">
+  	 			
+      
+  	 	<div class="Producto">
+  	 		
+      <img src="leche.webp" alt="Imagen 2" class="thumb" data-large="leche.webp">
+  	 				<h3>Leche</h3>
+  	 				<p>precio: BoB.5/L</p>
+  	 				<button class="add-to-cart" data-nombre="Leche" data-precio="5">Añadir Al Carrito</button>
+  	 			</div>
+  	 			<div class="Producto">
+  	 				
+      <img src="carne de res.webp" alt="Imagen 3" class="thumb" data-large="carne de res.webp">
+  	 				<h3>Carne de vaquilla gorda</h3>
+  	 				<p>precio: BoB.26/kg</p>
+  	 				<button class="add-to-cart" data-nombre="Carne de vaquilla gorda" data-precio="26">Añadir Al Carrito</button>
+            </div>
+          <div class="Producto">
+  	 		</main>
+  	 		<div id="carrito-modal" class="modal">
+  	 			<div class="modal-content">
+  	 				<span class="close">&times;</span>
+  	 				<h2>Tu Carrito</h2>
+  	 				<ul id="carrito-lista"></ul>
+  	 				<p>Total: BoB <span id="carrito-total">0</span></p>
+  	 			</div>
+  	 		</div>
+         <!-- Imagen grande en modal -->
+    <div class="modal" id="modal"> 
+      <span class="close" id="close">&times;</span>
+      <img src="" alt="Imagen grande" id="largeImg"
+       class="large-image">
+    </div>
+  </div>
+  	 		<footer>
+  	 		<p>&copy; 2025 Ganaderos Emprendedores</p>
+  	 	</footer>
+  	 	<script src="script.js"></script>
+
+  </body > 
+</html
